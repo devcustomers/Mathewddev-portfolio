@@ -19,10 +19,47 @@
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
           <nav class="nav container">
-              <a href="#" class="nav__logo"></a>
-              <span class="nav__logo-circle">R</span>
-              <span class="nav__logo-name">Mathew Duarte</span>
+              <a href="#" class="nav__logo">
+               <span class="nav__logo-circle">R</span>
+               <span class="nav__logo-name">Mathew Duarte</span>
+              </a>
+              
+              <div class="nav__menu" id="nav-menu">
+                 <span class="nav__title">Menu</span>
+
+                 <h3 class="nav__name">Mathew</h3>
+
+                 <ul class="nav__list">
+                    <li class="nav__item active">
+                       <a href="#home" class="nav__link">Hogar</a>
+                    </li>
+
+                    <li class="nav__item">
+                     <a href="#about" class="nav__link">Sobre mi</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projectos</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link">Contacto</a>
+                  </li>
+                 </ul>
+
+                 <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+                 </div>
+              </div>
+
+              <div class="nav__buttons">
+                 <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-4-line"></i>
+                 </div>
+              </div>
+
           </nav>
+
       </header>
 
 
@@ -30,12 +67,78 @@
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+               <h1 class="home__name">
+                  Mathew Duarte
+               </h1>
+               
+               <div class="home__perfil">
+                  <div class="home__image">
+                     <img src="assets/img/3s11jpeg.jpg" alt="image" class="home__img">
+                     <div class="home__shadow"></div>
+                     <img src="./assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                     <img src="./assets/img/random-lines.svg" alt="" class="home__line">
+
+                     <div class="geometric-box">
+                     </div>
+                     
+
+                     <div class="home__social">
+                        <a href="" target="_blank" class="home__social-link">
+                           <i class="ri-facebook-box-line"></i>
+                        </a>
+
+                        <a href="" target="_blank" class="home__social-link">
+                           <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="" target="_blank" class="home__social-link">
+                           <i class="ri-linkedin-line"></i>
+                        </a>
+
+                        <a href="" target="_blank" class="home__social-link">
+                           <i class="ri-github-line"></i>
+                        </a>
+                     </div>
+
+                        <div class="home__info">
+                           <p class="home__description">
+                              --Hola, soy Matthew Duarte desarrollador Wordpress y Front-end.--
+                           </p>
+
+                           <a href="#about" class="home__scroll">
+                              <div class="home__scroll-box">
+                                 <i class="ri-arrow-down-s-line"></i>
+                              </div>
+                              <span class="home__scroll-text">Scroll Down</span>
+                           </a>
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="home info">
+
+               </div>
+            </div>
          </section>
 
          <!--==================== ABOUT ====================-->
          <section class="about section" id="about">
-            
+            <div class="about__container" container grid>
+               <h2 class="section__title-1"> Sobre mi</h2>
+
+               <div class="about__perfil">
+                  <div class="about__image">
+                     <img src="./assets/img/soyhispt 2.jpg" alt="image" class="about__img">
+
+                     <div class="about__shadow"></div>
+
+                     <div class="geometric-box"></div>
+
+                     <img src="./assets/img/random-lines.svg" alt="" class="about__line">
+                  </div>
+               </div>
+            </div>
          </section>
 
          <!--==================== SERVICES ====================-->
